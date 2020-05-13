@@ -15,6 +15,10 @@
 		631B8C00246C69DC00261749 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 631B8BFE246C69DC00261749 /* LaunchScreen.storyboard */; };
 		631B8C0B246C69DC00261749 /* MentorBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631B8C0A246C69DC00261749 /* MentorBookTests.swift */; };
 		631B8C16246C69DC00261749 /* MentorBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631B8C15246C69DC00261749 /* MentorBookUITests.swift */; };
+		631B8C27246C6A1F00261749 /* ryo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 631B8C24246C6A1F00261749 /* ryo.jpg */; };
+		631B8C28246C6A1F00261749 /* nagata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 631B8C25246C6A1F00261749 /* nagata.jpg */; };
+		631B8C29246C6A1F00261749 /* taithi.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 631B8C26246C6A1F00261749 /* taithi.JPG */; };
+		631B8C2B246C6D7800261749 /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631B8C2A246C6D7800261749 /* Mentor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		631B8C11246C69DC00261749 /* MentorBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentorBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		631B8C15246C69DC00261749 /* MentorBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorBookUITests.swift; sourceTree = "<group>"; };
 		631B8C17246C69DC00261749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		631B8C24246C6A1F00261749 /* ryo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ryo.jpg; sourceTree = "<group>"; };
+		631B8C25246C6A1F00261749 /* nagata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nagata.jpg; sourceTree = "<group>"; };
+		631B8C26246C6A1F00261749 /* taithi.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taithi.JPG; sourceTree = "<group>"; };
+		631B8C2A246C6D7800261749 /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,7 @@
 		631B8BF2246C69DB00261749 /* MentorBook */ = {
 			isa = PBXGroup;
 			children = (
+				631B8C23246C6A1F00261749 /* images */,
 				631B8BF3246C69DB00261749 /* AppDelegate.swift */,
 				631B8BF5246C69DB00261749 /* SceneDelegate.swift */,
 				631B8BF7246C69DB00261749 /* ViewController.swift */,
@@ -106,6 +115,7 @@
 				631B8BFC246C69DC00261749 /* Assets.xcassets */,
 				631B8BFE246C69DC00261749 /* LaunchScreen.storyboard */,
 				631B8C01246C69DC00261749 /* Info.plist */,
+				631B8C2A246C6D7800261749 /* Mentor.swift */,
 			);
 			path = MentorBook;
 			sourceTree = "<group>";
@@ -126,6 +136,16 @@
 				631B8C17246C69DC00261749 /* Info.plist */,
 			);
 			path = MentorBookUITests;
+			sourceTree = "<group>";
+		};
+		631B8C23246C6A1F00261749 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				631B8C24246C6A1F00261749 /* ryo.jpg */,
+				631B8C25246C6A1F00261749 /* nagata.jpg */,
+				631B8C26246C6A1F00261749 /* taithi.JPG */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +252,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				631B8C27246C6A1F00261749 /* ryo.jpg in Resources */,
+				631B8C28246C6A1F00261749 /* nagata.jpg in Resources */,
+				631B8C29246C6A1F00261749 /* taithi.JPG in Resources */,
 				631B8C00246C69DC00261749 /* LaunchScreen.storyboard in Resources */,
 				631B8BFD246C69DC00261749 /* Assets.xcassets in Resources */,
 				631B8BFB246C69DB00261749 /* Main.storyboard in Resources */,
@@ -259,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				631B8C2B246C6D7800261749 /* Mentor.swift in Sources */,
 				631B8BF8246C69DB00261749 /* ViewController.swift in Sources */,
 				631B8BF4246C69DB00261749 /* AppDelegate.swift in Sources */,
 				631B8BF6246C69DB00261749 /* SceneDelegate.swift in Sources */,
